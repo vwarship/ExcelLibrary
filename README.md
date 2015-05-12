@@ -1,12 +1,12 @@
-# Excel Library
+ï»¿## Excel Library
 
-## ½éÉÜ
-°ü×°ÁË Excel µÄ COM ½Ó¿Ú¡£¿ìËÙ¶ÁÈ¡ºÍÐ´Èë´óÁ¿Êý¾Ý¡£
+## ä»‹ç»
+åŒ…è£…äº† Excel çš„ COM æŽ¥å£ã€‚å¿«é€Ÿè¯»å–å’Œå†™å…¥å¤§é‡æ•°æ®ã€‚
 
-## ¹¦ÄÜ
+## åŠŸèƒ½
 
-* ´´½¨ xls, xlsx ¸ñÊ½
+* åˆ›å»º xls, xlsx æ ¼å¼
 
-* ÅúÁ¿Ð´ÈëÊý¾Ý
+* æ‰¹é‡å†™å…¥æ•°æ®
 
-* ÅúÁ¿¶ÁÈ¡Êý¾Ý
+* æ‰¹é‡è¯»å–æ•°æ®
