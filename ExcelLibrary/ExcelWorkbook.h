@@ -1,6 +1,12 @@
 #pragma once
 #include "ExcelWorksheet.h"
 
+enum ExcelFileFormat
+{
+	Xls,
+	Xlsx
+};
+
 class ExcelWorkbook
 {
 public:
@@ -10,13 +16,11 @@ public:
 
 	ExcelWorksheet GetWorksheet(PCTSTR name);
 
+	size_t WorksheetCount() const;
+
 	void Save();
 
-	/*
-	xlOpenXMLWorkbook	xlsx
-	xlWorkbookNormal	xls
-	*/
-	void SaveAs(PCTSTR filename, XlFileFormat fileFormat);
+	void SaveAs(PCTSTR filename, ExcelFileFormat fileFormat);
 
 	void Close();
 

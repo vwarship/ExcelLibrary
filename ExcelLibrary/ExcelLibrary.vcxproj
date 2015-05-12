@@ -80,14 +80,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ExcelApplication.h" />
+    <ClInclude Include="ExcelData.h" />
     <ClInclude Include="ExcelWorkbook.h" />
     <ClInclude Include="ExcelWorksheet.h" />
     <ClInclude Include="ImportExcelTypeLib.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="UseTime.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ExcelApplication.cpp" />
+    <ClCompile Include="ExcelData.cpp" />
     <ClCompile Include="ExcelLibrary.cpp" />
     <ClCompile Include="ExcelWorkbook.cpp" />
     <ClCompile Include="ExcelWorksheet.cpp" />

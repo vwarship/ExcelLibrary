@@ -16,6 +16,9 @@
     <Filter Include="Excel">
       <UniqueIdentifier>{26b50033-7774-4063-9aac-e2212f3648e1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{42371351-4ff8-41fb-b632-5f9466d7870b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -37,7 +40,13 @@
       <Filter>Excel</Filter>
     </ClInclude>
     <ClInclude Include="ExcelWorksheet.h">
+      <Filter>Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcelData.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UseTime.h">
+      <Filter>Util</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -54,6 +63,9 @@
       <Filter>Excel</Filter>
     </ClCompile>
     <ClCompile Include="ExcelWorksheet.cpp">
+      <Filter>Excel</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcelData.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
